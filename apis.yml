@@ -1,0 +1,185 @@
+aid: barnes-and-noble-education
+name: Barnes & Noble Education
+description: >-
+  Barnes & Noble Education, Inc. (NYSE: BNED) is one of the largest operators
+  of college bookstores in the United States, operating physical and virtual
+  campus stores alongside digital course-materials and educational services.
+  BNED reaches more than 5.7 million students through 1,125+ physical and
+  virtual stores across higher education and K-12 institutions, primarily
+  through its Barnes & Noble College Booksellers subsidiary and the MBS
+  Textbook Exchange wholesale business. Flagship offerings include the
+  First Day and First Day Complete affordable-access course-materials
+  programs, BNC OER+ digital courseware, faculty adoption tools, campus
+  retail and ecommerce services, and BNC AI Tools. BNED separated from
+  Barnes & Noble, Inc. in August 2015 and is not affiliated with the
+  Barnes & Noble retail bookstore chain. This repository captures any
+  APIs, developer tools, and machine-readable artifacts associated with
+  BNED. No public developer APIs or developer portal have been identified
+  at this time; integrations with campus systems and learning-management
+  systems are delivered through institutional partnerships rather than a
+  public API surface.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-05-23'
+modified: '2026-05-23'
+position: Consumer
+tags:
+  - Education
+  - Higher Education
+  - Course Materials
+  - Campus Bookstores
+  - Affordable Access
+  - Open Educational Resources
+  - Digital Learning
+  - Inclusive Access
+  - Retail
+  - Ecommerce
+  - K-12
+  - Publicly Traded
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/barnes-and-noble-education/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.bnedu.com
+  - type: SubsidiaryWebsite
+    url: https://www.bncollege.com
+  - type: SubsidiaryWebsite
+    url: https://www.mbsbooks.com
+  - type: InvestorRelations
+    url: https://www.bnedu.com/investor-relations
+  - type: NewsAndEvents
+    url: https://www.bnedu.com/news-and-events/
+  - type: News
+    url: https://www.bncollege.com/news/
+  - type: StoreDirectory
+    url: https://www.bncollege.com/campus-stores/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/barnes-&-noble-education-inc-
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/barnes-&-noble-college
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Barnes_%26_Noble_Education
+  - type: StockTicker
+    url: https://www.nyse.com/quote/XNYS:BNED
+x-corporate:
+  ticker: BNED
+  exchange: NYSE
+  headquarters: 120 Mountain View Boulevard, Basking Ridge, NJ
+  spinoff: '2015-08-03'
+  parentAtSpinoff: Barnes & Noble, Inc.
+  notRelatedTo: Barnes & Noble retail bookstores (bn.com)
+x-segments:
+  - id: retail
+    name: Retail
+    description: >-
+      Physical and virtual campus bookstores operated for higher-education
+      and K-12 partners under the Barnes & Noble College brand, plus
+      logo'd general merchandise, athletics merchandising, and retail
+      services.
+    operatingSubsidiary: Barnes & Noble College Booksellers
+  - id: wholesale
+    name: Wholesale
+    description: >-
+      Textbook and course-materials wholesale distribution to college
+      bookstores nationwide via MBS Textbook Exchange.
+    operatingSubsidiary: MBS Textbook Exchange
+  - id: dss
+    name: Digital Student Solutions (DSS)
+    description: >-
+      Digital education tools and content historically including the
+      Student Brands and PaperRater study/writing properties.
+    operatingSubsidiary: Student Brands
+x-products:
+  - id: first-day-complete
+    name: First Day Complete
+    summary: >-
+      Equitable-access program delivering all required course materials to
+      enrolled students by the first day of class through a flat
+      per-credit-hour charge on tuition.
+    metrics:
+      partnerCampuses: 191
+      studentsServed: 950000
+    url: https://www.bncollege.com
+  - id: first-day
+    name: First Day
+    summary: >-
+      Course-by-course inclusive-access course-materials delivery model
+      offered to faculty as an opt-in companion to traditional adoption.
+    url: https://www.bncollege.com
+  - id: bnc-oer-plus
+    name: BNC OER+
+    summary: >-
+      Open Educational Resources content packaged with proprietary
+      courseware, assessments, and faculty support, delivered at low or
+      no cost to students.
+    url: https://www.bncollege.com
+  - id: bnc-ai-tools
+    name: BNC AI Tools
+    summary: >-
+      Suite of AI-assisted faculty and student tools rolled out across
+      BNC campus partners.
+    url: https://www.bncollege.com
+  - id: faculty-tools
+    name: Faculty Adoption Tools
+    summary: >-
+      Course-materials adoption portal and faculty support resources
+      (historically FacultyEnlight and Adoption Insights).
+    url: https://www.bncollege.com
+  - id: campus-stores
+    name: Campus Stores (Physical & Virtual)
+    summary: >-
+      Operation of 1,125+ physical and virtual campus bookstores
+      providing course materials, technology, supplies, gifts, and
+      logo'd apparel.
+    metrics:
+      totalStores: 1125
+      higherEdAndK12: true
+    url: https://www.bncollege.com/campus-stores/
+  - id: bnc-ecommerce
+    name: BNC Ecommerce
+    summary: >-
+      Campus-branded online stores backing the physical store network,
+      providing course-materials ordering, general merchandise, and
+      logo'd apparel.
+    url: https://www.bncollege.com
+  - id: athletics-merchandising
+    name: Athletics Merchandising
+    summary: >-
+      Licensed and custom team merchandise programs supporting NCAA
+      and collegiate athletics departments.
+    url: https://www.bncollege.com
+  - id: bnc-k12
+    name: BNC K-12
+    summary: >-
+      K-12 school store operations and course-materials services
+      extending the BNC operating model into primary and secondary
+      education.
+    url: https://www.bncollege.com
+  - id: research-insights
+    name: College Insights & Research
+    summary: >-
+      Proprietary higher-education student and faculty research program
+      published as industry insights rather than a queryable data API.
+    url: https://www.bncollege.com
+x-integrations:
+  - context: >-
+      BNED publishes no public API, OpenAPI specification, or developer
+      portal. Course-materials access and inclusive-access fulfillment
+      typically integrate with campus systems (SIS, bursar, LMS) at the
+      institutional level. No Canvas, Blackboard, D2L Brightspace,
+      Moodle, or LTI integration documentation is published on
+      bnedu.com or bncollege.com at this time.
+x-notable-absences:
+  - No public developer portal
+  - No OpenAPI / Swagger specification
+  - No SDKs, CLIs, or sample code
+  - No public GitHub organization with active code (legacy bnedu org dormant since 2015)
+  - No public pricing or rate limits (B2B / institutional contracts only)
+  - No public store-directory data feed / API
+  - No published LMS integration specification
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com

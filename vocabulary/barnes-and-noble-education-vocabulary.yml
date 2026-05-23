@@ -1,0 +1,255 @@
+vocabulary:
+  name: Barnes & Noble Education Vocabulary
+  description: >-
+    Domain vocabulary for Barnes & Noble Education, Inc. (NYSE: BNED) and its
+    operating subsidiaries — Barnes & Noble College Booksellers, MBS Textbook
+    Exchange, and the historical Digital Student Solutions segment. Captures
+    the core terminology of campus bookstore operations, inclusive-access
+    course-materials delivery, faculty adoption, and digital learning programs
+    such as First Day Complete, BNC OER+, and BNC AI Tools.
+  version: '1.0'
+  created: '2026-05-23'
+  modified: '2026-05-23'
+
+corporate-concepts:
+  - term: BNED
+    definition: >-
+      Barnes & Noble Education, Inc., a public company (NYSE: BNED) that
+      operates college bookstores and provides course-materials and digital
+      learning services to higher-education and K-12 institutions. Spun off
+      from Barnes & Noble, Inc. on August 3, 2015 and not affiliated with the
+      Barnes & Noble retail bookstore chain (bn.com).
+    related:
+      - BNC College
+      - MBS Textbook Exchange
+      - DSS
+
+  - term: BNC College
+    definition: >-
+      Barnes & Noble College Booksellers, the principal operating subsidiary
+      of BNED, responsible for running physical and virtual campus bookstores
+      and delivering course-materials, retail, and research services to
+      institutional partners.
+    related:
+      - BNED
+      - Campus Store
+      - First Day Complete
+
+  - term: MBS Textbook Exchange
+    definition: >-
+      Wholesale-distribution subsidiary of BNED supplying new and used
+      textbooks and course materials to college bookstores nationwide.
+    related:
+      - BNED
+      - Wholesale
+      - Textbook
+
+  - term: DSS
+    definition: >-
+      Digital Student Solutions, the BNED segment historically encompassing
+      student and faculty digital tools such as the Student Brands and
+      PaperRater study and writing properties.
+    related:
+      - BNED
+
+  - term: Campus Partner
+    definition: >-
+      A college, university, or K-12 institution that contracts with BNC
+      College to operate its bookstore (physical, virtual, or both) and
+      deliver course-materials programs.
+    related:
+      - Campus Store
+      - First Day Complete
+      - K-12
+
+retail-concepts:
+  - term: Campus Store
+    definition: >-
+      A bookstore operated by BNC College on behalf of a campus partner.
+      May be a physical location, a virtual (online-only) store, or both.
+      BNC operates 1,125+ campus stores across higher education and K-12.
+    related:
+      - Physical Store
+      - Virtual Store
+      - Campus Partner
+
+  - term: Physical Store
+    definition: >-
+      A brick-and-mortar campus bookstore staffed and operated by BNC
+      College on a partner campus.
+    related:
+      - Campus Store
+
+  - term: Virtual Store
+    definition: >-
+      A campus-branded online store operated by BNC College that fulfills
+      course materials, technology, supplies, and logo'd merchandise
+      without a corresponding physical location.
+    related:
+      - Campus Store
+      - BNC Ecommerce
+
+  - term: BNC Ecommerce
+    definition: >-
+      The campus-branded online retail platform powering BNC virtual stores
+      and the ecommerce front-end for physical campus stores.
+    related:
+      - Virtual Store
+
+  - term: Athletics Merchandising
+    definition: >-
+      Licensed and custom team merchandise programs supporting collegiate
+      athletics departments, including logo'd apparel and fan goods sold
+      through campus stores and athletics retail channels.
+    related:
+      - Campus Store
+      - Custom Store Solutions
+
+  - term: Custom Store Solutions
+    definition: >-
+      Bespoke campus-store design, build-out, and operating services
+      tailored to the partner institution's brand and program needs.
+    related:
+      - Campus Store
+
+course-materials-concepts:
+  - term: Course Materials
+    definition: >-
+      Textbooks, digital courseware, lab materials, access codes, and
+      ancillary content adopted by faculty for a given course section.
+    related:
+      - Adoption
+      - Inclusive Access
+      - OER
+
+  - term: Adoption
+    definition: >-
+      The faculty-driven selection of textbooks and course materials for
+      a course section, captured and managed through BNC adoption tools
+      and the campus bookstore.
+    related:
+      - Faculty Tools
+      - Course Materials
+
+  - term: Inclusive Access
+    definition: >-
+      A course-materials delivery model in which all students in a course
+      receive digital access to required content on day one, with the cost
+      typically billed through a course fee. BNC's per-course inclusive
+      access offering is branded First Day.
+    related:
+      - First Day
+      - First Day Complete
+      - Equitable Access
+
+  - term: Equitable Access
+    definition: >-
+      A program model in which all enrolled students receive all required
+      course materials through a flat per-credit-hour charge on tuition,
+      regardless of the courses they take. BNC's equitable-access program
+      is branded First Day Complete.
+    related:
+      - First Day Complete
+
+  - term: First Day
+    definition: >-
+      BNC's per-course inclusive-access course-materials delivery program
+      offered to faculty as an opt-in companion to traditional adoption.
+    related:
+      - Inclusive Access
+      - First Day Complete
+
+  - term: First Day Complete
+    definition: >-
+      BNC's flagship equitable-access program delivering all required
+      course materials to every enrolled student by the first day of
+      class through a per-credit-hour charge on tuition. Reaches roughly
+      950,000 students across 191 partner campuses.
+    related:
+      - Equitable Access
+      - Campus Partner
+
+  - term: OER
+    definition: >-
+      Open Educational Resources — openly licensed teaching and learning
+      content available at low or no cost to students.
+    related:
+      - BNC OER+
+      - Courseware
+
+  - term: BNC OER+
+    definition: >-
+      BNC's commercial OER program pairing openly licensed content with
+      proprietary courseware, assessments, and faculty support to deliver
+      course materials at low or no cost to students.
+    related:
+      - OER
+      - Courseware
+      - First Day Complete
+
+  - term: Courseware
+    definition: >-
+      Interactive digital content combining readings, assessments, and
+      activities organized around a course's learning outcomes.
+    related:
+      - OER
+      - BNC OER+
+
+  - term: Textbook
+    definition: >-
+      A printed or digital book adopted as a primary required reading
+      for a course section, sourced new, used, rental, or digital.
+    related:
+      - Course Materials
+      - MBS Textbook Exchange
+
+  - term: Wholesale
+    definition: >-
+      The distribution of textbooks and course materials from publishers
+      and BNED's wholesale operation (MBS) to college bookstores.
+    related:
+      - MBS Textbook Exchange
+      - Textbook
+
+digital-learning-concepts:
+  - term: BNC AI Tools
+    definition: >-
+      A suite of AI-assisted faculty and student tools rolled out across
+      BNC campus partners to support teaching, learning, and course
+      preparation workflows.
+    related:
+      - Faculty Tools
+
+  - term: Faculty Tools
+    definition: >-
+      Web-based applications for faculty to research, adopt, and manage
+      course materials, including historical products such as
+      FacultyEnlight and the Adoption Insights Portal.
+    related:
+      - Adoption
+      - BNC AI Tools
+
+  - term: College Insights
+    definition: >-
+      BNED's proprietary research program covering higher-education
+      student and faculty behavior, attitudes, and trends, published as
+      industry reports rather than a queryable data API.
+    related:
+      - BNC College
+
+k12-concepts:
+  - term: K-12
+    definition: >-
+      Primary and secondary education partners served by BNC K-12 with
+      campus store operations and course-materials services modeled on
+      the higher-education BNC operating playbook.
+    related:
+      - BNC K-12
+      - Campus Partner
+
+  - term: BNC K-12
+    definition: >-
+      BNC College's K-12 operating arm extending campus-store operations
+      and course-materials services to K-12 schools.
+    related:
+      - K-12

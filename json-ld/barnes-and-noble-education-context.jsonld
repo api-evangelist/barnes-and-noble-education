@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "bned": "https://api-evangelist.com/vocab/barnes-and-noble-education#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Corporation": "schema:Corporation",
+    "Subsidiary": "schema:Organization",
+    "Segment": "bned:Segment",
+    "CampusPartner": "schema:EducationalOrganization",
+    "CampusStore": "schema:Store",
+    "PhysicalStore": "schema:Store",
+    "VirtualStore": "schema:OnlineStore",
+    "CourseMaterial": "schema:Product",
+    "Textbook": "schema:Book",
+    "Courseware": "schema:LearningResource",
+    "Course": "schema:Course",
+    "CourseSection": "schema:CourseInstance",
+    "Adoption": "bned:Adoption",
+    "Program": "bned:Program",
+    "ResearchReport": "schema:Report",
+
+    "id": "@id",
+    "type": "@type",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "brand": "schema:brand",
+
+    "tickerSymbol": "schema:tickerSymbol",
+    "exchange": "bned:exchange",
+    "parentOrganization": "schema:parentOrganization",
+    "subOrganization": "schema:subOrganization",
+    "foundingDate": {
+      "@id": "schema:foundingDate",
+      "@type": "xsd:date"
+    },
+    "spinoffDate": {
+      "@id": "bned:spinoffDate",
+      "@type": "xsd:date"
+    },
+
+    "operates": "bned:operates",
+    "operatedBy": "bned:operatedBy",
+    "partnerCampus": "bned:partnerCampus",
+    "studentsServed": {
+      "@id": "bned:studentsServed",
+      "@type": "xsd:integer"
+    },
+    "totalStores": {
+      "@id": "bned:totalStores",
+      "@type": "xsd:integer"
+    },
+    "physicalStores": {
+      "@id": "bned:physicalStores",
+      "@type": "xsd:integer"
+    },
+    "virtualStores": {
+      "@id": "bned:virtualStores",
+      "@type": "xsd:integer"
+    },
+
+    "courseMaterial": "bned:courseMaterial",
+    "isbn": "schema:isbn",
+    "publisher": "schema:publisher",
+    "edition": "schema:bookEdition",
+    "format": "bned:format",
+    "deliveryModel": "bned:deliveryModel",
+    "inclusiveAccess": {
+      "@id": "bned:inclusiveAccess",
+      "@type": "xsd:boolean"
+    },
+    "equitableAccess": {
+      "@id": "bned:equitableAccess",
+      "@type": "xsd:boolean"
+    },
+    "openLicensed": {
+      "@id": "bned:openLicensed",
+      "@type": "xsd:boolean"
+    },
+
+    "course": "bned:course",
+    "courseSection": "bned:courseSection",
+    "term": "bned:term",
+    "instructor": "schema:instructor",
+    "adoptionDate": {
+      "@id": "bned:adoptionDate",
+      "@type": "xsd:date"
+    },
+
+    "address": "schema:address",
+    "telephone": "schema:telephone",
+    "email": "schema:email",
+    "areaServed": "schema:areaServed",
+
+    "created": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:dateTime"
+    },
+    "modified": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    }
+  }
+}
