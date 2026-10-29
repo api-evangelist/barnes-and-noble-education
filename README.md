@@ -64,117 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Barnes & Noble Education, Inc. (NYSE: BNED) is one of the largest operators of college bookstores in the United States, running 1,125+ physical and virtual campus stores that reach more than 5.7 million higher-education and K-12 students. The company is best known for the First Day Complete equitable-access course-materials program, the BNC OER+ digital courseware program, faculty adoption tools, campus retail and ecommerce services, and the recently rolled-out BNC AI Tools. BNED separated from Barnes & Noble, Inc. on August 3, 2015 and is not affiliated with the Barnes & Noble retail bookstore chain (bn.com). This repository indexes the BNED corporate surface and its operating subsidiaries; no public developer API or developer portal has been identified.
+Barnes & Noble Education, Inc. (NYSE: BNED) is one of the largest operators of college bookstores in the United States, operating physical and virtual campus stores alongside digital course-materials and educational services. BNED reaches more than 5.7 million students through 1,125+ physical and virtual stores across higher education and K-12 institutions, primarily through its Barnes & Noble College Booksellers subsidiary and the MBS Textbook Exchange wholesale business. Flagship offerings include the First Day and First Day Complete affordable-access course-materials programs, BNC OER+ digital courseware, faculty adoption tools, campus retail and ecommerce services, and BNC AI Tools. BNED separated from Barnes & Noble, Inc. in August 2015 and is not affiliated with the Barnes & Noble retail bookstore chain. This repository captures any APIs, developer tools, and machine-readable artifacts associated with BNED. No public developer APIs or developer portal have been identified at this time; integrations with campus systems and learning-management systems are delivered through institutional partnerships rather than a public API surface.
 
-**URL:** [Barnes & Noble Education](https://www.bnedu.com)
+**Areas:** Education · Higher Education · Course Materials · Campus Bookstores · Affordable Access · Open Educational Resources · Digital Learning · Inclusive Access · Retail · E-Commerce · K-12 · Publicly Traded
 
-## Scope
+## Barnes & Noble Education on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Barnes & Noble Education is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/barnes-and-noble-education/](https://apis.io/providers/barnes-and-noble-education/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-- Education, Higher Education, Course Materials, Campus Bookstores, Affordable Access, Open Educational Resources, Digital Learning, Inclusive Access, Retail, Ecommerce, K-12, Publicly Traded
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON-LD (1)
 
-- **Created:** 2026-05-23
-- **Modified:** 2026-05-23
+Linked-data contexts for the provider's vocabulary.
 
-## Corporate
+- [Barnes And Noble Education Context](https://apis.io/jsonld/barnes-and-noble-education/barnes-and-noble-education-context/)
 
-- **Ticker:** NYSE: BNED
-- **Headquarters:** 120 Mountain View Boulevard, Basking Ridge, NJ
-- **Spinoff from Barnes & Noble, Inc.:** August 3, 2015
-- **Not related to:** Barnes & Noble retail bookstores (bn.com)
+#### Vocabulary (1)
 
-## Business Segments
+The provider's domain terms, defined.
 
-### Retail
-Physical and virtual campus bookstores operated for higher-education and K-12 partners under the Barnes & Noble College brand, plus logo'd general merchandise, athletics merchandising, and retail services. Operated through **Barnes & Noble College Booksellers**.
+- [Barnes & Noble Education Vocabulary](https://apis.io/vocabularies/barnes-and-noble-education/barnes-and-noble-education-vocabulary/)
 
-### Wholesale
-Textbook and course-materials wholesale distribution to college bookstores nationwide. Operated through **MBS Textbook Exchange**.
+## Where to find this API
 
-### Digital Student Solutions (DSS)
-Digital education tools and content historically including the Student Brands and PaperRater study and writing properties.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Products & Programs
+- [Website](https://www.bnedu.com)
 
-### First Day Complete
-Equitable-access program delivering all required course materials to every enrolled student by the first day of class through a flat per-credit-hour charge on tuition. Roughly **950,000 students** across **191 partner campuses**.
+## API Evangelist rating
 
-### First Day
-Per-course inclusive-access course-materials delivery model offered to faculty as an opt-in companion to traditional adoption.
+**Kin Score 6.0** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-### BNC OER+
-Open Educational Resources content packaged with proprietary courseware, assessments, and faculty support, delivered at low or no cost to students.
+| Facet | Score |
+|---|---|
+| Discoverability | 43.8 |
+| Contract quality | 14.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-### BNC AI Tools
-Suite of AI-assisted faculty and student tools rolled out across BNC campus partners.
+**Agent readiness 0.0** — human-only
 
-### Faculty Adoption Tools
-Course-materials adoption portal and faculty support resources, historically including FacultyEnlight and the Adoption Insights Portal.
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-### Campus Stores (Physical & Virtual)
-Operation of **1,125+ physical and virtual campus bookstores** providing course materials, technology, supplies, gifts, and logo'd apparel across higher education and K-12.
+**Regulatory alignment 4.9** — Education & Research
 
-### BNC Ecommerce
-Campus-branded online stores backing the physical store network, providing course-materials ordering, general merchandise, and logo'd apparel.
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/barnes-and-noble-education/](https://apis.io/providers/barnes-and-noble-education/).
 
-### Athletics Merchandising
-Licensed and custom team merchandise programs supporting NCAA and collegiate athletics departments.
+## How this profile is made
 
-### BNC K-12
-K-12 school store operations and course-materials services extending the BNC operating model into primary and secondary education.
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-### College Insights & Research
-Proprietary higher-education student and faculty research program published as industry insights.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Barnes & Noble Education: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Integration Notes
+## Open an issue
 
-BNED publishes no public API, OpenAPI specification, or developer portal. Course-materials access and inclusive-access fulfillment typically integrate with campus systems (SIS, bursar, LMS) at the institutional level. No Canvas, Blackboard, D2L Brightspace, Moodle, or LTI integration documentation is published on `bnedu.com` or `bncollege.com` at this time.
-
-## APIs
-
-No public developer APIs identified.
-
-## Common Resources
-
-- [Barnes & Noble Education Website](https://www.bnedu.com)
-- [Barnes & Noble College Website](https://www.bncollege.com)
-- [MBS Textbook Exchange](https://www.mbsbooks.com)
-- [Investor Relations](https://www.bnedu.com/investor-relations)
-- [Campus Stores Directory](https://www.bncollege.com/campus-stores/)
-- [BNC College News](https://www.bncollege.com/news/)
-- [BNED on LinkedIn](https://www.linkedin.com/company/barnes-&-noble-education-inc-)
-- [BNC College on LinkedIn](https://www.linkedin.com/company/barnes-&-noble-college)
-- [BNED Wikipedia](https://en.wikipedia.org/wiki/Barnes_%26_Noble_Education)
-- [NYSE: BNED](https://www.nyse.com/quote/XNYS:BNED)
-
-## Artifacts
-
-### JSON-LD
-
-- [Barnes & Noble Education Context](json-ld/barnes-and-noble-education-context.jsonld) — JSON-LD context mapping BNED corporate, campus-store, and course-materials vocabulary to schema.org
-
-### Vocabulary
-
-- [Barnes & Noble Education Vocabulary](vocabulary/barnes-and-noble-education-vocabulary.yml) — Domain vocabulary covering corporate structure, retail, course materials, digital learning, and K-12 concepts
-
-## Notable Absences
-
-- No public developer portal
-- No OpenAPI / Swagger specification
-- No SDKs, CLIs, or sample code
-- No public GitHub organization with active code (legacy `bnedu` GitHub org dormant since 2015)
-- No public pricing or rate limits (B2B / institutional contracts only)
-- No public store-directory data feed / API
-- No published LMS integration specification
-
-## Maintainers
-
-**FN:** API Evangelist
-**URL:** https://apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/barnes-and-noble-education/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
